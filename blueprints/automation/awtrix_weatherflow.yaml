@@ -166,14 +166,14 @@ blueprint:
       description: >
         Select a sensor either from a PWS or a forecast that provides the current outside temperature you wish to display:
 
-          -  `sensor.openweathermap_feels_like_temperature`
+          -  `sensor.shang_hai_tian_qi_gan_jue_wen_du`
 
       selector:
         entity:
           domain:
             - sensor
           multiple: false
-      default: sensor.weatherflow_air_temperature
+      default: sensor.shang_hai_tian_qi_gan_jue_wen_du
 
     color_matrix_json:
       name: Color Matrix
